@@ -1,3 +1,77 @@
 body {
-    background-color: blueviolet;
+    background-color: rgb(218, 255, 177);
 }
+.nav-bar {
+    list-style: none;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  a:link { text-decoration: none;
+  }
+  .nav-bar{
+    font-family: sans-serif;
+  }
+  .nav-bar {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  .nav-bar .nav-bar--box {
+    margin-right: 20px;
+    background-color: rgb(192, 130, 250);
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  .nav-bar .nav-bar--box:hover {
+    background-color: rgb(255, 110, 57);
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+  }
+  .container div{
+    background-color: rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 70px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);;
+  }
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+
+  }
+  .card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .card h3 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .card p {
+    font-size: 16px;
+    margin-top: 10px;
+  } 
+  .card a {
+    display: flex;
+    margin-top: 0px;
+    justify-content: center;
+    background-color: #ff3aff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  .card a:hover {
+    background-color: #ff78f4;
+  }
+  
