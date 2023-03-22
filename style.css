@@ -23,7 +23,7 @@ ul {
  }
   .nav-bar{
     font-family: Helvetica,sans-serif;
-    font-weight: 600;
+    font-weight: 700;
   }
   .nav-bar {
     display: flex;
@@ -33,8 +33,8 @@ ul {
     margin-right: 70px;
     background-color: #E56B6F;
     border-radius: 3px;
-    padding: 18px;
-    font-size: 30px;
+    padding: 16px;
+    font-size: 20px;
     box-shadow: 0 4px 8px rgb(0, 0, 0);;
   }
   .nav-bar .nav-bar--box {
@@ -42,6 +42,9 @@ ul {
     background-image: linear-gradient(to right, #E56B6F, #E56B6F, #6D597A);
     background-size: 200% auto;
     transition: background-position 0.5s ease-in-out;
+  }
+  .nav-bar .nav-bar--box a:visited{
+    color: black;
   }
 .nav-bar .nav-bar--box:hover {
   background-color: #E56B6F;
