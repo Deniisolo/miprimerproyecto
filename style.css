@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(244, 253, 234);
+    background-color: #EAAC8B;
 }
 .nav-bar {
     list-style: none;
@@ -9,11 +9,12 @@ ul {
     margin: 0;
     padding: 0;
   }
-  a:link { text-decoration: none;
+  a:link { 
+  text-decoration: none;
   }
  .logo img {
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
   margin-top: 60px;
   margin-left: 50px;
   position: absolute;
@@ -21,7 +22,8 @@ ul {
   left: 20px;
  }
   .nav-bar{
-    font-family: sans-serif;
+    font-family: Helvetica,sans-serif;
+    font-weight: 600;
   }
   .nav-bar {
     display: flex;
@@ -29,18 +31,21 @@ ul {
   }
   .nav-bar .nav-bar--box {
     margin-right: 70px;
-    background-color: rgb(192, 130, 250);
-    border-radius: 5px;
+    background-color: #E56B6F;
+    border-radius: 3px;
     padding: 18px;
-    font-size: 20px;
+    font-size: 30px;
     box-shadow: 0 4px 8px rgb(0, 0, 0);;
   }
   .nav-bar .nav-bar--box {
     margin-top: 50px;
+    background-image: linear-gradient(to right, #E56B6F, #E56B6F, #6D597A);
+    background-size: 200% auto;
+    transition: background-position 0.5s ease-in-out;
   }
-  .nav-bar .nav-bar--box:hover {
-    background-color: rgb(255, 145, 105);
-  }
+.nav-bar .nav-bar--box:hover {
+  background-color: #E56B6F;
+}
   .container{
     display: flex;
     justify-content: center;
@@ -77,7 +82,8 @@ ul {
     display: flex;
     margin-top: 0px;
     justify-content: center;
-    background-color: #ff3aff;
+    background-image: linear-gradient(to right, #E56B6F, #B56576, #E56B6F);
+    box-shadow: 0 4px 8px rgb(90, 86, 86);
     color: #fff;
     padding: 10px;
     border-radius: 5px;
