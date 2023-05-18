@@ -59,15 +59,46 @@ nav ul li:hover {
   display: flex;
   justify-content: end;
   margin-top: 1.3rem;
+  margin-bottom: 8rem;
 }
+.social-media img:hover{
+  background-color: #D7CDDD;
+  transform: scale(1.3);
+}
+.social-media img {
+  border-radius: 9rem;
+}
+
 .container {
   background-color: #FEFEFE;
   height: 47rem;
   width: 170rem;
-}
-.textme{
   display: flex;
-  justify-content: center;
+}
+.textme {
+  display: flex;
+  justify-content: left;
   flex-direction: column;
- 
+  margin-left: 8rem;
+  margin-top: 17rem;
+}
+.aboutme{
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.photoDenis img {
+  height:22rem;
+  width: 17rem;
+} 
+ .photo{
+  background-color: #D7CDDD;
+  border-radius: 28rem;
+  height:25rem;
+  width: 20rem;
+  margin-left: 20rem;
+  margin-top: 10rem; 
+} 
+.photoDenis{
+  height: 25rem;
+  width: 15rem;
 }
