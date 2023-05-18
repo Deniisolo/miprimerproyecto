@@ -65,3 +65,9 @@ nav ul li:hover {
   height: 47rem;
   width: 170rem;
 }
+.textme{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+ 
+}
