@@ -59,7 +59,7 @@ nav ul li:hover {
   display: flex;
   justify-content: end;
   margin-top: 1.3rem;
-  margin-bottom: 8rem;
+  margin-bottom: 1rem;
 }
 .social-media img:hover{
   background-color: #D7CDDD;
@@ -72,14 +72,14 @@ nav ul li:hover {
 .container {
   background-color: #FEFEFE;
   height: 47rem;
-  width: 170rem;
+  width: 100rem;
   display: flex;
 }
 .textme {
   display: flex;
   justify-content: left;
   flex-direction: column;
-  margin-left: 8rem;
+  margin-left: 17rem;
   margin-top: 17rem;
 }
 .aboutme{
