@@ -12,6 +12,51 @@ body {
 a:link {
   text-decoration: none;
 }
+/* Estilos generales para el menú */
+header nav {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+.logoname {
+  font-size: 24px;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column; /* Cambio a disposición vertical para móviles */
+}
+
+li {
+  margin-bottom: 10px; /* Agrega espacio entre los elementos de la lista */
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+li a:hover {
+  color: #ff9900;
+}
+
+/* Media query para pantallas más grandes */
+@media screen and (min-width: 768px) {
+  ul {
+    flex-direction: row; /* Vuelve a la disposición horizontal */
+  }
+
+  li {
+    margin-bottom: 0; /* Elimina el espacio entre elementos en pantallas más grandes */
+    margin-right: 20px;
+  }
+}
+
 /* header {
   background-color: #FEFEFE;
   padding: 1.25rem;
