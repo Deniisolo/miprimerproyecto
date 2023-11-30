@@ -5,8 +5,8 @@
 }
 body{
   font-family: 'DM Sans', sans-serif;
-font-family: 'Inter', sans-serif;
-font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .container-nav{
   display: grid;
@@ -24,10 +24,10 @@ font-family: 'Poppins', sans-serif;
   place-items: center;
   /* position: fixed; */
   list-style: none;
+  font-weight: 500;
 }
 .nav-bar a {
   color: #090909;
-  font-weight: bold;
   font-size: 28px;
   text-decoration: none;
   text-align: center;
@@ -52,6 +52,7 @@ font-family: 'Poppins', sans-serif;
 }
 .aboutme{
   font-size: 30px;
+  font-weight: 100;
 }
 .container-main {
   display: grid;
@@ -64,13 +65,13 @@ font-family: 'Poppins', sans-serif;
 }
 .social-media{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 100px;
-  gap: 5px;
-  width: 100%;
-  height: 100%;
-  grid-auto-rows: repeat(auto-fill, minmax(15rem, 1fr));
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
   place-items: center;
+}
+.social-media_container{
+display: grid;
+
 }
 .social-media__red{
   height: 50px;
