@@ -1,8 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 body{
@@ -10,8 +8,7 @@ body{
 }
 .container-nav{
   display: grid;
-  gap: 1rem;
-  grid-auto-rows: repeat(auto-fill, minmax(15rem, 1fr));
+  grid-template-rows: repeat(1 3fr);
   grid-template-columns: repeat(2, 1fr);
 }
 .container-nav .logoname {
@@ -21,13 +18,13 @@ body{
 .nav-bar {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  align-items: end;
+  grid-template-rows: repeat(1, 1fr);
+  place-items: center;
   gap: 15px;
   /* position: fixed; */
   top: 0;
   right: 0;
   list-style: none;
-  margin-top: 20px;
 }
 .nav-bar a {
   color: #090909;
