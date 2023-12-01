@@ -24,6 +24,10 @@ body{
   list-style: none;
   font-weight: 500;
 }
+.logoname a{
+  text-decoration: none;
+  color: #090909;
+}
 .nav-bar a {
   color: #090909;
   font-size: 28px;
@@ -89,3 +93,14 @@ justify-self: start;
 /* #container-main{
   display: none;
 } */
+
+#portafolio-main {
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
+  place-content: center;
+}
+#aboutme-main{
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 700px;
+  justify-items: center;
+}
