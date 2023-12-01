@@ -14,7 +14,7 @@ body{
   grid-template-columns: repeat(2, 1fr);
 }
 .container-nav .logoname {
-  font-size: 60px;
+  font-size: 3.125rem;
   /* position: fixed; */
 }
 .nav-bar {
@@ -43,8 +43,8 @@ body{
   grid-area: 1 / 1 / 2 / 2;
 }
 .photoDenis-1{
-    height: 600px;
-    width: 400px;
+    height: 37.5rem;
+    width: 25rem;
     object-fit: contain;
 }
 .name{
@@ -65,15 +65,15 @@ body{
 }
 .social-media{
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 3fr 2fr;
   grid-template-rows: repeat(1, 1fr);
   place-items: center;
 }
 .social-media_container{
 display: grid;
 grid-template-columns: repeat(5, 1fr);
-gap: 2rem;
-
+gap: 2.5rem;
+justify-self: start;
 }
 .social-media__red{
   height: 50px;
