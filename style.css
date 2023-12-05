@@ -93,11 +93,25 @@ justify-self: start;
 /* #container-main{
   display: none;
 } */
-
-#portafolio-main {
-  grid-template-rows: repeat(3, 1fr);
-  grid-template-columns: repeat(1, 1fr);
-  place-content: center;
+#portafolio-main{
+  gap: 10px;
+  width: 100%;
+  height: 80vh;
+}
+.card{
+  display: grid;
+  grid-template-rows: repeat(2fr 1fr 2fr);
+  grid-template-columns: 1fr;
+  background-color: coral;
+  justify-items: center;
+}
+.parrfo-trivia{
+  font-size: 2rem;
+}
+.lenguajes {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ justify-items: center;
 }
 #aboutme-main{
   grid-template-columns: repeat(2, 1fr);
