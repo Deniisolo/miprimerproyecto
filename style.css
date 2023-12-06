@@ -140,3 +140,14 @@ justify-self: start;
 .info{
   justify-self: center;
 }
+#contacto-main{
+  grid-template-rows: repeat(5, 1fr);
+  gap: 10px;
+  width: 100%;
+  height: 80vh;
+  place-items: center;
+}
+.contacto-p{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
