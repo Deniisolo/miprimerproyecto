@@ -115,11 +115,13 @@ margin-right: 5%;
 .parrfo-trivia{
   font-size: 2rem;
 }
-.img-trivia{
-  height: 70%;
-  width: 70%;
-  margin-top: 10%;
-  border-radius: 2rem;
+a {
+  margin: 0;
+  padding: 0;
+}
+.img-trivia {
+  width: 100%; /* Ajusta según sea necesario */
+  height: auto;
 }
 .lenguajes {
  display: grid;
@@ -147,23 +149,36 @@ margin-right: 5%;
 }
 #contacto-main{
   grid-template-columns: repeat(2, 1fr);
+  place-items: center;
 }
 .container-contacto{
   display: grid;
-  grid-template-rows: repeat(6, 0,6fr);
-  width: 100%;
+  grid-template-rows: repeat(6, 1fr);
+  width: 80%;
   height: 80vh;
-  place-items: center;
+  justify-items: center;
+  align-items: center;
+}
+.container-contacto{
+  background-color: rgb(251, 212, 212);
 }
 input{
-border: 0;
   height: 40%;
   width: 40%;
   border-radius: 25px;
   text-align: center;
 }
-input:hover{
-  background-color: rgb(240, 175, 151);
+input {
+  border: none;
+  outline: none; /* Elimina el contorno predeterminado en algunos navegadores */
+  border-bottom: 1px solid rgb(252, 150, 150); /* Línea inferior con color gris claro */
+  padding: 5px; 
+}
+.contacto-pf{
+    font-size: 1.3rem;
+}
+input:focus {
+  border-bottom: 2px solid rgb(252, 150, 150);
 }
 button{
   background-color: rgb(252, 150, 150);
