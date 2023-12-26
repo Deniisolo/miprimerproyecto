@@ -1,108 +1,122 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Inter:wght@300;500&family=Poppins:wght@200;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Denisolo.com</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Inter:wght@300;500&family=Poppins:wght@200;500;700&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
-  <title> Denisolo.com </title>
-</head>
-
-<body>
-  <header>
-    <nav class="container-nav">
-      <h1 class="logoname"> <a href="#" onclick="deniisolo()"> Denisolo.com </a> </h1>
-      <ul class="nav-bar">
-        <li><a onclick="Portafolio()" href="#"> Portafolio</a></li>
-        <li><a onclick="Sobremi()" href="#">Sobre mí</a></li>
-        <li><a onclick="Contacto()" href="# ">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section id="container-main">
-      <img class="photoDenis-1" src="/pics/IMG_20220805_163223.jpg" alt="photoDenis">
-      <article class="info">
-        <h1 class="name"> Hi! I'm Denis,  </h1>
-        <p class="aboutme">
-          also known as Deniisolo
-          <br>on social media.
-          I'm a Front-End <br>
-          Developer specializing in <br>
-          holi
-          creating amazing web <br>
-          experiences.
-        </p>
-      </article>
-    </section>
-    <section id="portafolio-main">
-      <article class="card">
-        <a href="https://deniisolo.github.io/Trivia9.1/">
-         <img class="img-trivia"  src="/pics/trivia9.1.png" alt="trivia">
-        </a>
-        <p class="parrfo-trivia"> Trivia </p>
-        <div class="lenguajes">
-          <img src="/picskpop/html-5 1.png" alt="HTML">
-          <img src="/picskpop/css-3 1.png" alt="css-3">
-          <img src="/picskpop/js (1) 1.png" alt="JavaScript">
-        </div>
-      </article>
-    </section>
-    <section  id="aboutme-main">
-      <article class="info">
-        <p class="aboutme">
-          ¡Hola! Soy Denis Álvarez mas <br>
-          conocida como Deniisolo, una <br>
-          persona creativa y apasionada por <br>
-           el Frontend Development. Mi <br>
-          actual travesía se centra en <br>
-          convertirme en un desarrollador <br>
-          Frontendta ahora, he <br> 
-          adquirido habil, y hasidades sólidas en <br>
-           HTML, CSS, JavaScript y Git.
-        </p>
-      </article>
-      <article class="cv">
-        <a class="cv-a" href="pics/cv Denis Alvarez.pdf" target="_blank">Abrir CV</a>
-    </article>
-    </section> 
-    <section id="contacto-main">
-      <article class="container-contacto">
-        <p class="contacto-p" > 🧙‍♀️Contactame 👸 </p>
-        <input  type="text" placeholder="Name">
-        <input type="text" placeholder="Email">
-        <input type="text" placeholder="Subject">
-        <input type="text" placeholder="Message">
-        <button> <span> Submit </span></button>
-      </article>
-      <article >
-        <p class="contacto-pf">If you want to talk about code, exciting projects,
-          <br> or just chat about the web world, I'm here. </p>
-      </article>
-    </section> 
-  </main>
-  <footer>
-
-    <section class="social-media">
-      <section class="vacia"> </section>
-      <section class="social-media_container">
-        <a href="https://github.com/Deniisolo"><img class="social-media__red" src="picskpop/Github.png" /></a>
-        <a href="https://www.tiktok.com/@deniisolo"><img class="social-media__red" src="picskpop/tiktok.png" /></a>
-        <a href="https://www.instagram.com/deniisolo/"><img class="social-media__red"
-            src="picskpop/instagram.png" /></a>
-        <a href="https://www.facebook.com/profile.php?id=100092736400642"><img class="social-media__red"
-            src="picskpop/facebook.png" /></a>
-        <a href="https://twitter.com/Deniisolo"><img class="social-media__red" src="picskpop/twitter.png" /></a>
+  <body>
+    <header>
+      <nav class="container-nav">
+        <h1 class="logoname">
+          <a href="#" onclick="deniisolo()"> Denisolo.com </a>
+        </h1>
+        <ul class="nav-bar">
+          <li><a onclick="Portafolio()" href="#"> Portafolio</a></li>
+          <li><a onclick="Sobremi()" href="#">Sobre mí</a></li>
+          <li><a onclick="Contacto()" href="# ">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="container-main">
+        <img
+          class="photoDenis-1"
+          src="/pics/IMG_20220805_163223.jpg"
+          alt="photoDenis"
+        />
+        <article class="info">
+          <h1 class="name">Hi! I'm Denis,</h1>
+          <p class="aboutme">
+            also known as Deniisolo
+            <br />on social media. I'm a Front-End <br />
+            Developer specializing in <br />
+            creating amazing web <br />
+            experiences.
+          </p>
+        </article>
       </section>
-    </section>
-  </footer>
-  <script src="index.js"></script>
-</body>
-
+      <section id="portafolio-main">
+        <article class="card">
+          <a href="https://deniisolo.github.io/Trivia9.1/">
+            <img class="img-trivia" src="/pics/trivia9.1.png" alt="trivia" />
+          </a>
+          <p class="parrfo-trivia">Trivia</p>
+          <div class="lenguajes">
+            <img src="/picskpop/html-5 1.png" alt="HTML" />
+            <img src="/picskpop/css-3 1.png" alt="css-3" />
+            <img src="/picskpop/js (1) 1.png" alt="JavaScript" />
+          </div>
+        </article>
+      </section>
+      <section id="aboutme-main">
+        <article class="info">
+          <p class="aboutme">
+            ¡Hola! Soy Denis Álvarez mas <br />
+            conocida como Deniisolo, una <br />
+            persona creativa y apasionada por <br />
+            el Frontend Development. Mi <br />
+            actual travesía se centra en <br />
+            convertirme en un desarrollador <br />
+            Frontendta ahora, he <br />
+            adquirido habil, y hasidades sólidas en <br />
+            HTML, CSS, JavaScript y Git.
+          </p>
+        </article>
+        <article class="cv">
+          <a class="cv-a" href="pics/cv Denis Alvarez.pdf" target="_blank"
+            >Abrir CV</a
+          >
+        </article>
+      </section>
+      <section id="contacto-main">
+        <article class="container-contacto">
+          <p class="contacto-p">🧙‍♀️Contactame 👸</p>
+          <input type="text" placeholder="Name" />
+          <input type="text" placeholder="Email" />
+          <input type="text" placeholder="Subject" />
+          <input type="text" placeholder="Message" />
+          <button><span> Submit </span></button>
+        </article>
+        <article>
+          <p class="contacto-pf">
+            If you want to talk about code, exciting projects, <br />
+            or just chat about the web world, I'm here.
+          </p>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <section class="social-media">
+        <section class="vacia"></section>
+        <section class="social-media_container">
+          <a href="https://github.com/Deniisolo"
+            ><img class="social-media__red" src="picskpop/Github.png"
+          /></a>
+          <a href="https://www.tiktok.com/@deniisolo"
+            ><img class="social-media__red" src="picskpop/tiktok.png"
+          /></a>
+          <a href="https://www.instagram.com/deniisolo/"
+            ><img class="social-media__red" src="picskpop/instagram.png"
+          /></a>
+          <a href="https://www.facebook.com/profile.php?id=100092736400642"
+            ><img class="social-media__red" src="picskpop/facebook.png"
+          /></a>
+          <a href="https://twitter.com/Deniisolo"
+            ><img class="social-media__red" src="picskpop/twitter.png"
+          /></a>
+        </section>
+      </section>
+    </footer>
+    <script src="index.js"></script>
+  </body>
 </html>
