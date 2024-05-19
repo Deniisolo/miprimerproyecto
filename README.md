@@ -1,4 +1,4 @@
-# ¡Bienvenid@s a Deniisolo.com! 🌟
+# ¡Bienvenid@s a Denisolo.com! 🌟
 
 ¡Hola! Soy Denis, también conocido como Deniisolo en las redes sociales.
 
